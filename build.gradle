@@ -25,3 +25,8 @@ dependencies {
 test {
 	useJUnitPlatform()
 }
+
+jar {
+    baseName = 'steer'
+    version =  '0.1.0'
+}
